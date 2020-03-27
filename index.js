@@ -5,7 +5,7 @@ const axios = require('axios').default;
 
 var users =[];
 var onlineuser =[];
-var url = process.env.API_URL || 'http://localhost/elate/public/api/v1';
+var url = process.env.API_URL_UAT || 'http://localhost/elate/public/api/v1';
 
 app.get("/", function(req,res) {
 	res.sendFile(__dirname+"/index.html");
