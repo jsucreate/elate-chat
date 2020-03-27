@@ -69,6 +69,6 @@ function saveData(from, to, msg)
 	});
 }
 
-http.listen(3000, function() {
+http.listen(process.env.PORT || 3000, function() {
 	console.log("Server Created with port 1234");
 });
