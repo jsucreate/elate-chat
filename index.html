@@ -14,6 +14,7 @@
         var username = "";
         var to_user = "";
         var socket =io("http://localhost:1234/");
+        var socket =io("https://elate-chat.herokuapp.com/:1234/");
 
        socket.on("get user",function(data){
            // $("#message").append(data+" is online now");
